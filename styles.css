@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden; /* prevent scrollbars */
+  background: #000; /* letterbox beyond map if any */
+}
+
+/* Canvas fills the browser window */
+#game {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+
